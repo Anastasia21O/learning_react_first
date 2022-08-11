@@ -1,10 +1,12 @@
 import React from "react";
+import Timer from "../timer/Timer";
 
 
-const Main = () => {
+const Main = ({name}) => {
     return (
         <div>
-            <h1>main</h1>
+            <h1>Hi {name}</h1>
+            <Timer/>
         </div>
     )
 };

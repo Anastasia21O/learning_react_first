@@ -7,7 +7,7 @@ class General extends Component {
         return (
             <div>
                 <Layout>
-                    <Main/>
+                    <Main name="sefe"/>
                 </Layout>
             </div>
         );
