@@ -9,9 +9,26 @@ class Timer extends Component{
         }
     }
 
+    // componentDidMount() {
+    //     this.timerID = setInterval(() => {
+    //         this.tick()
+    //     }, 1000);
+    // }
+    // componentWillUnmount() {
+    //     clearInterval(this.timerID)
+    // }
+
+    // tick() {
+    //     this.setState({
+    //         date: new Date()
+    //     });
+    // }
+
     render() {
         return (
-            <div></div>
+            <div>
+                <h2>Зараз {this.state.date.toLocaleDateString()}.</h2>
+            </div>
         );
     }
 }
